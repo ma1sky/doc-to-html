@@ -1,0 +1,1572 @@
+{
+  "reference_file": "Лекция_1_—_Экосистема_полупроводниковой_индустрии.html",
+  "reference_sha256": "32d49050b3b4245c9cc852dcbbd14a167be91e8454612ce24e137e8c851871ab",
+  "output_file": "Лекция 1 - Экосистема полупроводниковой индустрии.html",
+  "snapshot": {
+    "pages": [
+      {
+        "text_sha256": "187caf516dc8437c2f209abc74a614782d037276aa64e8e083bfd2f3117d6ca8",
+        "text_without_toc_numbers_sha256": "187caf516dc8437c2f209abc74a614782d037276aa64e8e083bfd2f3117d6ca8",
+        "types": {
+          "div": 1,
+          "text": 10,
+          "divEmpty": 14,
+          "h": 2
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "div",
+            "divEmpty"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "29cd75bec2dc53360d931bf20c913f4ef7cc74f7f13cd77e8e7bed2665cfa26f",
+        "text_without_toc_numbers_sha256": "42cc2a8904ace1db459e36e2f2797532d5fbb742efd3361313eb22417510a82e",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "toc": 1
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "div",
+            "toc"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "8d749267853f26bcd41d7ee4d098873e162955bd24f96e293d35a77ba1f38573",
+        "text_without_toc_numbers_sha256": "8d749267853f26bcd41d7ee4d098873e162955bd24f96e293d35a77ba1f38573",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 7
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "2405ba27906bb0fa64cbe06e9c244c99c08f04e05cf3e05ce8eb9477f65ed2b7",
+        "text_without_toc_numbers_sha256": "2405ba27906bb0fa64cbe06e9c244c99c08f04e05cf3e05ce8eb9477f65ed2b7",
+        "types": {
+          "div": 1,
+          "text": 5
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "2a7866bcfebc93f9db41ed0952896d29db626410575b1d1abc17ee64d2ff5bdd",
+        "text_without_toc_numbers_sha256": "2a7866bcfebc93f9db41ed0952896d29db626410575b1d1abc17ee64d2ff5bdd",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 13
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "82a2cb30f29fd875788e8d596be0dc96144ebb05f911d6b05f38079576ac9953",
+        "text_without_toc_numbers_sha256": "82a2cb30f29fd875788e8d596be0dc96144ebb05f911d6b05f38079576ac9953",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 8
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "135d92cc4e64d83260762e13d472930b73d33db987fdf7e00cb5868a6c6599a8",
+        "text_without_toc_numbers_sha256": "135d92cc4e64d83260762e13d472930b73d33db987fdf7e00cb5868a6c6599a8",
+        "types": {
+          "div": 1,
+          "h": 3,
+          "text": 7
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "758fc36008e453bc56a8162fe9b54d06161320ffcdd638ece66a38f6d59b41ca",
+        "text_without_toc_numbers_sha256": "758fc36008e453bc56a8162fe9b54d06161320ffcdd638ece66a38f6d59b41ca",
+        "types": {
+          "div": 1,
+          "text": 17,
+          "tableContainer": 1,
+          "tableRow": 4,
+          "tableCol": 12,
+          "h": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "tableContainer"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "c13dc0332a9535d486049b2d9587d3177e83e5dcc722a6c0a803e7243553578b",
+        "text_without_toc_numbers_sha256": "c13dc0332a9535d486049b2d9587d3177e83e5dcc722a6c0a803e7243553578b",
+        "types": {
+          "div": 1,
+          "h": 3,
+          "text": 7
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "0e3fbcc629b24c8ba3cef8cacc6f9b3d48fc5b213704c455fd3a21b7d737ba1c",
+        "text_without_toc_numbers_sha256": "0e3fbcc629b24c8ba3cef8cacc6f9b3d48fc5b213704c455fd3a21b7d737ba1c",
+        "types": {
+          "div": 1,
+          "text": 3,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "3480f97e66da76e7b9a7e03d3b5fdb43c0fff63607096408e48f459b876790e7",
+        "text_without_toc_numbers_sha256": "3480f97e66da76e7b9a7e03d3b5fdb43c0fff63607096408e48f459b876790e7",
+        "types": {
+          "div": 1,
+          "text": 4,
+          "h": 1,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "d9883c8806f9730ea62a9ab3492dd803b48c1fcccfe3bc8b2838594300f3e8c4",
+        "text_without_toc_numbers_sha256": "d9883c8806f9730ea62a9ab3492dd803b48c1fcccfe3bc8b2838594300f3e8c4",
+        "types": {
+          "div": 1,
+          "text": 40,
+          "tableContainer": 1,
+          "tableRow": 8,
+          "tableCol": 32
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "tableContainer"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "5cfd4b901cded1b4a78560690cead3036659b7d9ec866c4d1ee38ceb56e5b460",
+        "text_without_toc_numbers_sha256": "5cfd4b901cded1b4a78560690cead3036659b7d9ec866c4d1ee38ceb56e5b460",
+        "types": {
+          "div": 1,
+          "h": 2,
+          "text": 3,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "8c5ed8256ecb7617d3ecbdc38827dc5b7b32da2255139eac9de2e0b1e7510cce",
+        "text_without_toc_numbers_sha256": "8c5ed8256ecb7617d3ecbdc38827dc5b7b32da2255139eac9de2e0b1e7510cce",
+        "types": {
+          "div": 1,
+          "text": 5,
+          "img": 1,
+          "h": 2
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "4d50c011ff4dea227665546ffa91bc1d15e5e083cb22ef8f38ff86a3a214fe68",
+        "text_without_toc_numbers_sha256": "4d50c011ff4dea227665546ffa91bc1d15e5e083cb22ef8f38ff86a3a214fe68",
+        "types": {
+          "div": 1,
+          "text": 7,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "c749a914e65218b1b6ba31eefa087d25a55de26a3936c393b66180efa082aa89",
+        "text_without_toc_numbers_sha256": "c749a914e65218b1b6ba31eefa087d25a55de26a3936c393b66180efa082aa89",
+        "types": {
+          "div": 1,
+          "text": 3,
+          "img": 1,
+          "h": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "837c56b9000c6823b7b5e0f7f95559c1cb91062e1ce36a84058ffbe7ffd9bbba",
+        "text_without_toc_numbers_sha256": "837c56b9000c6823b7b5e0f7f95559c1cb91062e1ce36a84058ffbe7ffd9bbba",
+        "types": {
+          "div": 1,
+          "text": 18,
+          "tableContainer": 1,
+          "tableRow": 3,
+          "tableCol": 9
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "tableContainer"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "8939552dc2bf8ac8ff393ba56b617b5306ac34ce84e49dc115562a2bac1f1c67",
+        "text_without_toc_numbers_sha256": "8939552dc2bf8ac8ff393ba56b617b5306ac34ce84e49dc115562a2bac1f1c67",
+        "types": {
+          "div": 1,
+          "text": 4,
+          "img": 1,
+          "h": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "93636ae1ca9fe6dc14bb4810ed33b5b75f1dee2a5d17a362f16fbcb1c0cd16bd",
+        "text_without_toc_numbers_sha256": "93636ae1ca9fe6dc14bb4810ed33b5b75f1dee2a5d17a362f16fbcb1c0cd16bd",
+        "types": {
+          "div": 1,
+          "img": 2,
+          "text": 3
+        },
+        "blocks": [
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "ed6dad5931b8805fa51aa02236cc8e44e07e34ddf73e01221a246ff0a5eaa184",
+        "text_without_toc_numbers_sha256": "ed6dad5931b8805fa51aa02236cc8e44e07e34ddf73e01221a246ff0a5eaa184",
+        "types": {
+          "div": 1,
+          "text": 1,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "120210db55d7ce019a2b7a73e3a77109a57b9e5a5e0f80e292ad12c2d02c8972",
+        "text_without_toc_numbers_sha256": "120210db55d7ce019a2b7a73e3a77109a57b9e5a5e0f80e292ad12c2d02c8972",
+        "types": {
+          "div": 1,
+          "h": 2,
+          "text": 3
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "effd767a7f242595b4f0051c2f118136a53d36ed68008a2523f022096c6e3263",
+        "text_without_toc_numbers_sha256": "effd767a7f242595b4f0051c2f118136a53d36ed68008a2523f022096c6e3263",
+        "types": {
+          "div": 1,
+          "img": 1,
+          "text": 3,
+          "h": 1
+        },
+        "blocks": [
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "519ac84884fdd61e0035160476eda7d4673557886132cc31568615958b47064b",
+        "text_without_toc_numbers_sha256": "519ac84884fdd61e0035160476eda7d4673557886132cc31568615958b47064b",
+        "types": {
+          "div": 1,
+          "text": 3,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "3beb4942abe2acb3507754ef8b079f6e3ccc2cee8a986c53c9f00a7a3286ae35",
+        "text_without_toc_numbers_sha256": "3beb4942abe2acb3507754ef8b079f6e3ccc2cee8a986c53c9f00a7a3286ae35",
+        "types": {
+          "div": 1,
+          "text": 3,
+          "h": 1,
+          "img": 1
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "c030a8b8a5921966386d09c97c7543f3c532797bc6e5b3cf20ef3e44a0609d0f",
+        "text_without_toc_numbers_sha256": "c030a8b8a5921966386d09c97c7543f3c532797bc6e5b3cf20ef3e44a0609d0f",
+        "types": {
+          "div": 1,
+          "text": 6,
+          "h": 2
+        },
+        "blocks": [
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "2ba729bb241e6fb16ec790e7a3f1a00243d69f5531eba4aa3416c2a2f5668567",
+        "text_without_toc_numbers_sha256": "2ba729bb241e6fb16ec790e7a3f1a00243d69f5531eba4aa3416c2a2f5668567",
+        "types": {
+          "div": 1,
+          "tableContainer": 1,
+          "tableRow": 8,
+          "tableCol": 40,
+          "text": 41
+        },
+        "blocks": [
+          [
+            "div",
+            "tableContainer"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "44f40747b9b20920ec42ee9936c2bd8b612e772e3ef55c155c53a21af2c2a495",
+        "text_without_toc_numbers_sha256": "44f40747b9b20920ec42ee9936c2bd8b612e772e3ef55c155c53a21af2c2a495",
+        "types": {
+          "div": 1,
+          "h": 4,
+          "text": 4
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "h5",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "6da4f191e5fdaf53f6994c85fbc5d2d0f5d6297665cfad06bb59b633cc490095",
+        "text_without_toc_numbers_sha256": "6da4f191e5fdaf53f6994c85fbc5d2d0f5d6297665cfad06bb59b633cc490095",
+        "types": {
+          "div": 1,
+          "img": 1,
+          "text": 2
+        },
+        "blocks": [
+          [
+            "div",
+            "img"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "61ef831c5bd837aa4c420b75489e868162b113a676fae102a202d9a2d772bf0c",
+        "text_without_toc_numbers_sha256": "61ef831c5bd837aa4c420b75489e868162b113a676fae102a202d9a2d772bf0c",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 4
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "4f3afc1f6a9c5a15554b6ec0daad4a556bbf89d6e8c42f34889324edcbd410fc",
+        "text_without_toc_numbers_sha256": "4f3afc1f6a9c5a15554b6ec0daad4a556bbf89d6e8c42f34889324edcbd410fc",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 11
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      },
+      {
+        "text_sha256": "ace8e4ab4ccd5e5d5b4633fbeb4820517c57efd18598abfc3aeff4f737df2ff5",
+        "text_without_toc_numbers_sha256": "ace8e4ab4ccd5e5d5b4633fbeb4820517c57efd18598abfc3aeff4f737df2ff5",
+        "types": {
+          "div": 1,
+          "h": 1,
+          "text": 6
+        },
+        "blocks": [
+          [
+            "h3",
+            "h"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ],
+          [
+            "p",
+            "text"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "sha256": "c845cca85133d7897bd2d505b4915216b0118840c10d47ced876b7ca9e33d8ad",
+        "alt": "Рисунок 1 - Обобщённая схема структуры полупроводниковой индустрии",
+        "widths": {
+          "lg": 82.42424242,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "7ae1ef490e9624aadf411a072576330c934f8d7bb23301218dac594cc73308d0",
+        "alt": "Рисунок 2 - Обобщённая схема компаний полупроводниковой индустрии",
+        "widths": {
+          "lg": 68.03030303,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "c0afa7485bf9957be220dcd436008bbe4e3b73b00f23b06fefd404b77f455ede",
+        "alt": "Рисунок 3 - Топология СФ-блока",
+        "widths": {
+          "lg": 62.87878788,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "1b51152b20f1fb8e1ad6ab9bc9d27cb8735dcd2370e980d07815529430979bd3",
+        "alt": "Рисунок 4 - Компании - разработчики СФ-блоков",
+        "widths": {
+          "lg": 74.54545455,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "529b026108960d791f0ea14462bc9326c7a42af5b8a6f951ecea37f8886bffa5",
+        "alt": "Рисунок 5 - Компании - разработчики САПР",
+        "widths": {
+          "lg": 68.03030303,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "79c7db9ed2303cb5d4872dc123c566cc04cc859bfbf0a0de699ccc774a4b62bc",
+        "alt": "Рисунок 6 - Топология логического чипа",
+        "widths": {
+          "lg": 49.6969697,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "ce7c42d17f73f9fb145d0c31759b9b6ebc709d114828fc1e0724abd166fc476c",
+        "alt": "Рисунок 7 - Производители специализированных материалов",
+        "widths": {
+          "lg": 69.39393939,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "0ba230641b610a538f859815cd1381b250df3befae78cb731c892d60524dd8f8",
+        "alt": "Рисунок 8 - Литограф фирмы ASML",
+        "widths": {
+          "lg": 60.15151515,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "d9760394f8339044e1fa08c8225e5e818bf5edc363a12d6e3325ffad190269d6",
+        "alt": "Рисунок 9 - Установка травления фирмы Applied Materials",
+        "widths": {
+          "lg": 51.06060606,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "640dca6a79b6fac22fadebf40dbed96d2c932a9e770fae30f5a0ee400782cd3d",
+        "alt": "Рисунок 10 - Производители специализированного оборудования",
+        "widths": {
+          "lg": 65.45454545,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "561dd6b9fa06fa0f6f98322c20d7015661a8a015e9168b74129b34ba5730310f",
+        "alt": "Рисунок 11 - Производители интегральных устройств (IDM)",
+        "widths": {
+          "lg": 56.36363636,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "7a8e281e2301d6e594f2278ae3e206bd738181c12c774bfd555d0f9b4c2ebb5e",
+        "alt": "Рисунок 12 - Безфабричные компании (fabless)",
+        "widths": {
+          "lg": 60.15151515,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "cb6512de43f84217e723669f5cf4f976079547eaac9b07ceab38903e9b97176e",
+        "alt": "Рисунок 13 - Фабрики (foundry)",
+        "widths": {
+          "lg": 61.51515152,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      },
+      {
+        "sha256": "b417237a9164b42e1fae1b8963e887c42941b84d14fc6eb8d0e9d11242d4b971",
+        "alt": "Рисунок 14 - Упрощённая схема производства электронных устройств",
+        "widths": {
+          "lg": 82.42424242,
+          "tb": 100.0,
+          "mb": 100.0
+        }
+      }
+    ],
+    "toc": [
+      {
+        "toc-title": "ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ",
+        "toc-page": "3",
+        "target_page": 3,
+        "target_text": "ТЕРМИНЫИОПРЕДЕЛЕНИЯ"
+      },
+      {
+        "toc-title": "ПЕРЕЧЕНЬ СОКРАЩЕНИЙ И ОБОЗНАЧЕНИЙ",
+        "toc-page": "5",
+        "target_page": 5,
+        "target_text": "ПЕРЕЧЕНЬСОКРАЩЕНИЙИОБОЗНАЧЕНИЙ"
+      },
+      {
+        "toc-title": "ВВЕДЕНИЕ",
+        "toc-page": "6",
+        "target_page": 6,
+        "target_text": "ВВЕДЕНИЕ"
+      },
+      {
+        "toc-title": "1 Полупроводники в современной цифровой экономике",
+        "toc-page": "7",
+        "target_page": 7,
+        "target_text": "1Полупроводникивсовременнойцифровойэкономике"
+      },
+      {
+        "toc-title": "1.1 Роль полупроводниковых устройств",
+        "toc-page": "7",
+        "target_page": 7,
+        "target_text": "1.1Рольполупроводниковыхустройств"
+      },
+      {
+        "toc-title": "1.2 Масштаб рынка на примере смартфонов",
+        "toc-page": "7",
+        "target_page": 7,
+        "target_text": "1.2Масштабрынканапримересмартфонов"
+      },
+      {
+        "toc-title": "1.3 Стратегическое значение отрасли",
+        "toc-page": "8",
+        "target_page": 8,
+        "target_text": "1.3Стратегическоезначениеотрасли"
+      },
+      {
+        "toc-title": "2 Основные понятия и общая структура индустрии",
+        "toc-page": "9",
+        "target_page": 9,
+        "target_text": "2Основныепонятияиобщаяструктураиндустрии"
+      },
+      {
+        "toc-title": "2.1 Полупроводниковые устройства и чипы",
+        "toc-page": "9",
+        "target_page": 9,
+        "target_text": "2.1Полупроводниковыеустройстваичипы"
+      },
+      {
+        "toc-title": "2.2 Общая схема структуры индустрии",
+        "toc-page": "10",
+        "target_page": 9,
+        "target_text": "2.2Общаясхемаструктурыиндустрии"
+      },
+      {
+        "toc-title": "2.3 Семь звеньев цепочки поставок",
+        "toc-page": "11",
+        "target_page": 11,
+        "target_text": "2.3Семьзвеньевцепочкипоставок"
+      },
+      {
+        "toc-title": "3 Звенья цепочки поставок",
+        "toc-page": "13",
+        "target_page": 13,
+        "target_text": "3Звеньяцепочкипоставок"
+      },
+      {
+        "toc-title": "3.1 Сложные функциональные блоки и IP-ядра",
+        "toc-page": "13",
+        "target_page": 13,
+        "target_text": "3.1СложныефункциональныеблокииIP-ядра"
+      },
+      {
+        "toc-title": "3.2 Топология интегральной схемы",
+        "toc-page": "14",
+        "target_page": 14,
+        "target_text": "3.2Топологияинтегральнойсхемы"
+      },
+      {
+        "toc-title": "3.3 Инструменты автоматизации проектирования (EDA / САПР)",
+        "toc-page": "14",
+        "target_page": 14,
+        "target_text": "3.3Инструментыавтоматизациипроектирования(EDA/САПР)"
+      },
+      {
+        "toc-title": "3.4 Специальные материалы и химикаты",
+        "toc-page": "17",
+        "target_page": 16,
+        "target_text": "3.4Специальныематериалыихимикаты"
+      },
+      {
+        "toc-title": "3.5 Специализированное технологическое оборудование",
+        "toc-page": "18",
+        "target_page": 18,
+        "target_text": "3.5Специализированноетехнологическоеоборудование"
+      },
+      {
+        "toc-title": "4 Модели организации производства",
+        "toc-page": "21",
+        "target_page": 21,
+        "target_text": "4Моделиорганизациипроизводства"
+      },
+      {
+        "toc-title": "4.1 Производители интегральных устройств (IDM)",
+        "toc-page": "21",
+        "target_page": 21,
+        "target_text": "4.1Производителиинтегральныхустройств(IDM)"
+      },
+      {
+        "toc-title": "4.2 Безфабричные компании (fabless)",
+        "toc-page": "22",
+        "target_page": 22,
+        "target_text": "4.2Безфабричныекомпании(fabless)"
+      },
+      {
+        "toc-title": "4.3 Фабрики (foundry)",
+        "toc-page": "24",
+        "target_page": 24,
+        "target_text": "4.3Фабрики(foundry)"
+      },
+      {
+        "toc-title": "4.4 Сборка, тестирование и упаковка",
+        "toc-page": "25",
+        "target_page": 25,
+        "target_text": "4.4Сборка,тестированиеиупаковка"
+      },
+      {
+        "toc-title": "4.5 Сравнение моделей организации производства",
+        "toc-page": "25",
+        "target_page": 25,
+        "target_text": "4.5Сравнениемоделейорганизациипроизводства"
+      },
+      {
+        "toc-title": "5 Основные этапы производства чипа",
+        "toc-page": "27",
+        "target_page": 27,
+        "target_text": "5Основныеэтапыпроизводствачипа"
+      },
+      {
+        "toc-title": "5.1 Проектирование",
+        "toc-page": "27",
+        "target_page": 27,
+        "target_text": "5.1Проектирование"
+      },
+      {
+        "toc-title": "5.2 Изготовление",
+        "toc-page": "27",
+        "target_page": 27,
+        "target_text": "5.2Изготовление"
+      },
+      {
+        "toc-title": "5.3 Сборка, тестирование и упаковка",
+        "toc-page": "27",
+        "target_page": 27,
+        "target_text": "5.3Сборка,тестированиеиупаковка"
+      },
+      {
+        "toc-title": "ЗАКЛЮЧЕНИЕ",
+        "toc-page": "29",
+        "target_page": 29,
+        "target_text": "ЗАКЛЮЧЕНИЕ"
+      },
+      {
+        "toc-title": "КОНТРОЛЬНЫЕ ВОПРОСЫ",
+        "toc-page": "30",
+        "target_page": 30,
+        "target_text": "КОНТРОЛЬНЫЕВОПРОСЫ"
+      },
+      {
+        "toc-title": "СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ",
+        "toc-page": "31",
+        "target_page": 31,
+        "target_text": "СПИСОКИСПОЛЬЗОВАННЫХИСТОЧНИКОВ"
+      }
+    ]
+  }
+}

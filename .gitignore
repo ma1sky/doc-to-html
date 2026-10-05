@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated copies; full HTML lectures in output/ are versioned.
+preview/
+pdf-parts/
+pdf-parts-supplied/
+pdf-parts-one-page/
+
+.DS_Store
+Thumbs.db
