@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from zipfile import ZipFile
 from convert import DEFAULT_INPUT, ROOT, NS, Parser, q
 from layout import text as node_text
-from reference_checks import assert_reference, validate_layout
+from reference_checks import assert_reference, validate_layout, content_blocks
 
 
 def main():
@@ -29,7 +29,7 @@ def main():
         layout_result = validate_layout(tree)
         ids = [n.attrs['id'] for n in nodes if 'id' in n.attrs]
         assert len(ids) == len(set(ids)), f'Duplicate IDs: {dest}'
-        contents = [n for n in nodes if 'lecture-content' in n.attrs.get('class', '').split()]
+        contents = [c for n in nodes if n.attrs.get('data-element-type') == 'page' for c in content_blocks(n)]
         def body_text(n):
             if isinstance(n, str):
                 return n

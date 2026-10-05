@@ -1,130 +1,31 @@
 {
-  "reference_file": "Лекция_1_—_Экосистема_полупроводниковой_индустрии.html",
-  "reference_sha256": "32d49050b3b4245c9cc852dcbbd14a167be91e8454612ce24e137e8c851871ab",
+  "source": "C:\\Users\\Артём\\Downloads\\Telegram Desktop\\Лекция_1_Экосистема_полупроводниковой_индустрии_3.html",
   "output_file": "Лекция 1 - Экосистема полупроводниковой индустрии.html",
   "snapshot": {
     "pages": [
       {
+        "page_structure_sha256": "f526323829bddf30ce662626e41862e22600b342488d7c67ad96623b34279a92",
+        "structure_sha256": "6c1350f581c5188a8d6d9b69f1bcd8cca7abcd1bd714b5a8c2dccf01d59b73b5",
         "text_sha256": "187caf516dc8437c2f209abc74a614782d037276aa64e8e083bfd2f3117d6ca8",
         "text_without_toc_numbers_sha256": "187caf516dc8437c2f209abc74a614782d037276aa64e8e083bfd2f3117d6ca8",
         "types": {
-          "div": 1,
+          "div": 2,
           "text": 10,
-          "divEmpty": 14,
           "h": 2
         },
         "blocks": [
           [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
             "div",
-            "divEmpty"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "h5",
-            "h"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "h5",
-            "h"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "p",
-            "text"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "div",
-            "divEmpty"
-          ],
-          [
-            "p",
-            "text"
+            "div"
           ]
         ]
       },
       {
-        "text_sha256": "29cd75bec2dc53360d931bf20c913f4ef7cc74f7f13cd77e8e7bed2665cfa26f",
+        "page_structure_sha256": "15cd3ac14d04e6c61c2bc962f7beaa828bfe58d2fbaed913d2d8758bfbbeebab",
+        "structure_sha256": "66c02a9fadad52400f481336a98679e0a8379f0cdd9dafda1d91e1697157c132",
+        "text_sha256": "ca9e5c457fbc20f5803679453fedeb35ee617fd1395b425c893aefff3254777b",
         "text_without_toc_numbers_sha256": "42cc2a8904ace1db459e36e2f2797532d5fbb742efd3361313eb22417510a82e",
         "types": {
-          "div": 1,
           "h": 1,
           "toc": 1
         },
@@ -140,10 +41,11 @@
         ]
       },
       {
+        "page_structure_sha256": "f394502cdddc6ced7395f5427e51412d1a625dea1b1f2ba3f380c1a61340621a",
+        "structure_sha256": "5d8599818119bb39354553aeac4369bc47ffa03d1cab207c0b588b8f0ebfe2cf",
         "text_sha256": "8d749267853f26bcd41d7ee4d098873e162955bd24f96e293d35a77ba1f38573",
         "text_without_toc_numbers_sha256": "8d749267853f26bcd41d7ee4d098873e162955bd24f96e293d35a77ba1f38573",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 7
         },
@@ -183,10 +85,11 @@
         ]
       },
       {
+        "page_structure_sha256": "8182a65142e5e8d3303682536edb1a937c6aa647656b5fb2f7a824ed1b22ebcc",
+        "structure_sha256": "e0e546be906000f8c64e3aa30e9ebf6b14aec5d2730be2c5e76b5a7ada42e2cf",
         "text_sha256": "2405ba27906bb0fa64cbe06e9c244c99c08f04e05cf3e05ce8eb9477f65ed2b7",
         "text_without_toc_numbers_sha256": "2405ba27906bb0fa64cbe06e9c244c99c08f04e05cf3e05ce8eb9477f65ed2b7",
         "types": {
-          "div": 1,
           "text": 5
         },
         "blocks": [
@@ -213,10 +116,11 @@
         ]
       },
       {
+        "page_structure_sha256": "1d37bc68736d79533723264c185a1bd95b55451a64342e39ccb963be5b1cb652",
+        "structure_sha256": "c5b0377984328c9e951a5cb32cf72d54e83266263895b8ab6843e0de9b34671c",
         "text_sha256": "2a7866bcfebc93f9db41ed0952896d29db626410575b1d1abc17ee64d2ff5bdd",
         "text_without_toc_numbers_sha256": "2a7866bcfebc93f9db41ed0952896d29db626410575b1d1abc17ee64d2ff5bdd",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 13
         },
@@ -280,10 +184,11 @@
         ]
       },
       {
+        "page_structure_sha256": "ec958bc248c888aa12567bc3d07a29dbe8070aac011dad512f296f4f600dfe46",
+        "structure_sha256": "53e10b577e5e58e2bbd63e7fb7568418c96ce362f8dbfd5b08070d16869b3abb",
         "text_sha256": "82a2cb30f29fd875788e8d596be0dc96144ebb05f911d6b05f38079576ac9953",
         "text_without_toc_numbers_sha256": "82a2cb30f29fd875788e8d596be0dc96144ebb05f911d6b05f38079576ac9953",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 8
         },
@@ -327,10 +232,11 @@
         ]
       },
       {
+        "page_structure_sha256": "d8ebcdeeab1e7eeaeee2b9ec9dea39f9655e0fab2fe4f4291bcb62ea1df8b0a9",
+        "structure_sha256": "80eb691aaa19f3119b11330dfc2d839a06dbccc93453040072b928678f5d1b94",
         "text_sha256": "135d92cc4e64d83260762e13d472930b73d33db987fdf7e00cb5868a6c6599a8",
         "text_without_toc_numbers_sha256": "135d92cc4e64d83260762e13d472930b73d33db987fdf7e00cb5868a6c6599a8",
         "types": {
-          "div": 1,
           "h": 3,
           "text": 7
         },
@@ -378,10 +284,11 @@
         ]
       },
       {
+        "page_structure_sha256": "6b2a7048d2ed556739cd8254e36bb4bd03c5d5a0c1c13d51ac705919ee8ed715",
+        "structure_sha256": "86a71d2f1e720ba079e3ff9e63669df7b3a2c93d16e7720b08d974463f2e3740",
         "text_sha256": "758fc36008e453bc56a8162fe9b54d06161320ffcdd638ece66a38f6d59b41ca",
         "text_without_toc_numbers_sha256": "758fc36008e453bc56a8162fe9b54d06161320ffcdd638ece66a38f6d59b41ca",
         "types": {
-          "div": 1,
           "text": 17,
           "tableContainer": 1,
           "tableRow": 4,
@@ -420,10 +327,11 @@
         ]
       },
       {
+        "page_structure_sha256": "93d585e4f918f79919c245f7754416a964d9568707f9afe5ee2d1f0077c9673e",
+        "structure_sha256": "3fd81be4acc144a967ae2d4986bf13ddc502bc01a3439bd15a1cae2dfd09bf8e",
         "text_sha256": "c13dc0332a9535d486049b2d9587d3177e83e5dcc722a6c0a803e7243553578b",
         "text_without_toc_numbers_sha256": "c13dc0332a9535d486049b2d9587d3177e83e5dcc722a6c0a803e7243553578b",
         "types": {
-          "div": 1,
           "h": 3,
           "text": 7
         },
@@ -471,10 +379,11 @@
         ]
       },
       {
+        "page_structure_sha256": "41aac236b9b1d45df2a153710faf9e9745f50b717a79d35f461acd01ba98b719",
+        "structure_sha256": "cf966110df6878b2b9952dcc331ea976bae6f18d7dbf872bc55f2481afad4603",
         "text_sha256": "0e3fbcc629b24c8ba3cef8cacc6f9b3d48fc5b213704c455fd3a21b7d737ba1c",
         "text_without_toc_numbers_sha256": "0e3fbcc629b24c8ba3cef8cacc6f9b3d48fc5b213704c455fd3a21b7d737ba1c",
         "types": {
-          "div": 1,
           "text": 3,
           "img": 1
         },
@@ -498,10 +407,11 @@
         ]
       },
       {
+        "page_structure_sha256": "860d67da86e19372008c5f4de7b73a5daecfd30eeaf1cdb4d45d74d1fe06ba0f",
+        "structure_sha256": "3c291df6454f0629da032599fd899b567c84abb22cc268c63b87e24c28033a85",
         "text_sha256": "3480f97e66da76e7b9a7e03d3b5fdb43c0fff63607096408e48f459b876790e7",
         "text_without_toc_numbers_sha256": "3480f97e66da76e7b9a7e03d3b5fdb43c0fff63607096408e48f459b876790e7",
         "types": {
-          "div": 1,
           "text": 4,
           "h": 1,
           "img": 1
@@ -534,10 +444,11 @@
         ]
       },
       {
+        "page_structure_sha256": "d10c2ba80ab52c1d686a9851061482a0dc8f0c6de85b044364fedb6efa7584d9",
+        "structure_sha256": "a48ba01b8a8025e745615742faf9006797882968eb7ab380b6ba1723f58abce8",
         "text_sha256": "d9883c8806f9730ea62a9ab3492dd803b48c1fcccfe3bc8b2838594300f3e8c4",
         "text_without_toc_numbers_sha256": "d9883c8806f9730ea62a9ab3492dd803b48c1fcccfe3bc8b2838594300f3e8c4",
         "types": {
-          "div": 1,
           "text": 40,
           "tableContainer": 1,
           "tableRow": 8,
@@ -583,10 +494,11 @@
         ]
       },
       {
+        "page_structure_sha256": "7089dfbc34147644337578b72908d62f51fdd7c22a83115e1b33df25deeb1987",
+        "structure_sha256": "280d018ef76d46b692d94e3daddee5afeb9c2fcff31cd52d783b8d90108fe144",
         "text_sha256": "5cfd4b901cded1b4a78560690cead3036659b7d9ec866c4d1ee38ceb56e5b460",
         "text_without_toc_numbers_sha256": "5cfd4b901cded1b4a78560690cead3036659b7d9ec866c4d1ee38ceb56e5b460",
         "types": {
-          "div": 1,
           "h": 2,
           "text": 3,
           "img": 1
@@ -619,10 +531,11 @@
         ]
       },
       {
+        "page_structure_sha256": "820ce711e15348b63e9387bd1752fb711483bea92bb713c6c0b148dd7fc90814",
+        "structure_sha256": "160d3dd2e8c1495fe011fc832d456e5f0fbea2641c201186e9fb0c91ea31e4ce",
         "text_sha256": "8c5ed8256ecb7617d3ecbdc38827dc5b7b32da2255139eac9de2e0b1e7510cce",
         "text_without_toc_numbers_sha256": "8c5ed8256ecb7617d3ecbdc38827dc5b7b32da2255139eac9de2e0b1e7510cce",
         "types": {
-          "div": 1,
           "text": 5,
           "img": 1,
           "h": 2
@@ -663,10 +576,11 @@
         ]
       },
       {
+        "page_structure_sha256": "3b12b9e97bf641d58dd8c7c2f0de930a1a63c84c6962580933878b1fb6c89114",
+        "structure_sha256": "960f9afe29b9839671ca5fce39ee9c9531692db2f69344635b0bd89e092b6976",
         "text_sha256": "4d50c011ff4dea227665546ffa91bc1d15e5e083cb22ef8f38ff86a3a214fe68",
         "text_without_toc_numbers_sha256": "4d50c011ff4dea227665546ffa91bc1d15e5e083cb22ef8f38ff86a3a214fe68",
         "types": {
-          "div": 1,
           "text": 7,
           "img": 1
         },
@@ -706,10 +620,11 @@
         ]
       },
       {
+        "page_structure_sha256": "64cf748e8579775a9b9f90db37d790af48e0e13dd2efe0c55fe76c011fb2514e",
+        "structure_sha256": "172020c014f3618743194f5ec694ed0248c3e185fa5c103379f1676095d45b5c",
         "text_sha256": "c749a914e65218b1b6ba31eefa087d25a55de26a3936c393b66180efa082aa89",
         "text_without_toc_numbers_sha256": "c749a914e65218b1b6ba31eefa087d25a55de26a3936c393b66180efa082aa89",
         "types": {
-          "div": 1,
           "text": 3,
           "img": 1,
           "h": 1
@@ -738,10 +653,11 @@
         ]
       },
       {
+        "page_structure_sha256": "3fd562c8d6632fd9a0a0076d5215f49833abf952528261aa646f502906c2cafb",
+        "structure_sha256": "49d51eaff34a6b029f29322b53cc2cdd297c30547e10a0380f300f6b7b6afaa1",
         "text_sha256": "837c56b9000c6823b7b5e0f7f95559c1cb91062e1ce36a84058ffbe7ffd9bbba",
         "text_without_toc_numbers_sha256": "837c56b9000c6823b7b5e0f7f95559c1cb91062e1ce36a84058ffbe7ffd9bbba",
         "types": {
-          "div": 1,
           "text": 18,
           "tableContainer": 1,
           "tableRow": 3,
@@ -791,10 +707,11 @@
         ]
       },
       {
+        "page_structure_sha256": "3d8365a6c92a7a90466742cb6da77e00ea50b2f85bbe2c070cc184f5fa4cda8b",
+        "structure_sha256": "dfe50ec62c2941736bf76b8176d92fa41152bf7598a7c2fd41f52a17f1b071ea",
         "text_sha256": "8939552dc2bf8ac8ff393ba56b617b5306ac34ce84e49dc115562a2bac1f1c67",
         "text_without_toc_numbers_sha256": "8939552dc2bf8ac8ff393ba56b617b5306ac34ce84e49dc115562a2bac1f1c67",
         "types": {
-          "div": 1,
           "text": 4,
           "img": 1,
           "h": 1
@@ -827,10 +744,11 @@
         ]
       },
       {
+        "page_structure_sha256": "6ae84ffef3c134e9a4c28253f0dcf87fc0fff4afefbc9a3e7919f69b88f2407b",
+        "structure_sha256": "a5c3890db89da3a88f168554eb50135191011621603cf07e5f8cc517af63ad2a",
         "text_sha256": "93636ae1ca9fe6dc14bb4810ed33b5b75f1dee2a5d17a362f16fbcb1c0cd16bd",
         "text_without_toc_numbers_sha256": "93636ae1ca9fe6dc14bb4810ed33b5b75f1dee2a5d17a362f16fbcb1c0cd16bd",
         "types": {
-          "div": 1,
           "img": 2,
           "text": 3
         },
@@ -858,10 +776,11 @@
         ]
       },
       {
+        "page_structure_sha256": "7c5511bd462a42296c0efd2555bf9898d38e02fedaca75938559facaeebb1f1b",
+        "structure_sha256": "74237cd61dd679b58d1b9a3cf7633b4abdbfc3c7dd7a5a5eb9c1277618dff71f",
         "text_sha256": "ed6dad5931b8805fa51aa02236cc8e44e07e34ddf73e01221a246ff0a5eaa184",
         "text_without_toc_numbers_sha256": "ed6dad5931b8805fa51aa02236cc8e44e07e34ddf73e01221a246ff0a5eaa184",
         "types": {
-          "div": 1,
           "text": 1,
           "img": 1
         },
@@ -877,10 +796,11 @@
         ]
       },
       {
+        "page_structure_sha256": "5a7a9fb3395c083916a8da9c99d3e5d75957c1a1977233e3039ec35f01a44eba",
+        "structure_sha256": "f6b60351808bb8fa2f05444d23e459e2cc49a43886a4fb21731705e5bb2c2881",
         "text_sha256": "120210db55d7ce019a2b7a73e3a77109a57b9e5a5e0f80e292ad12c2d02c8972",
         "text_without_toc_numbers_sha256": "120210db55d7ce019a2b7a73e3a77109a57b9e5a5e0f80e292ad12c2d02c8972",
         "types": {
-          "div": 1,
           "h": 2,
           "text": 3
         },
@@ -908,10 +828,11 @@
         ]
       },
       {
+        "page_structure_sha256": "96971706c4a95cea7c0a5538db81e7a89064f866e71266012e8c8274bf8812df",
+        "structure_sha256": "bb0fe45d5ca7fa4459f1c1aa1a34d3fd5dad998a1490d7f3239fe4c84876f7b6",
         "text_sha256": "effd767a7f242595b4f0051c2f118136a53d36ed68008a2523f022096c6e3263",
         "text_without_toc_numbers_sha256": "effd767a7f242595b4f0051c2f118136a53d36ed68008a2523f022096c6e3263",
         "types": {
-          "div": 1,
           "img": 1,
           "text": 3,
           "h": 1
@@ -940,10 +861,11 @@
         ]
       },
       {
+        "page_structure_sha256": "e0d1ff43b1cbe9eab2320b148a3ff1c3964736972d8ff9afcdf79d8a14d03768",
+        "structure_sha256": "fb8261824ee30ae381a0b84a4e0bd3f4cc1defbb15aa22fe0a089d2b0e1ab997",
         "text_sha256": "519ac84884fdd61e0035160476eda7d4673557886132cc31568615958b47064b",
         "text_without_toc_numbers_sha256": "519ac84884fdd61e0035160476eda7d4673557886132cc31568615958b47064b",
         "types": {
-          "div": 1,
           "text": 3,
           "img": 1
         },
@@ -967,10 +889,11 @@
         ]
       },
       {
+        "page_structure_sha256": "45d0f4af44ee1714a01e9c3c3337a75d667f8d039ee49bcf3436e51fef486914",
+        "structure_sha256": "5488c54e762d645dc3408644e9881f43ea0eea05b0ab90cd4061d2c8813ddf87",
         "text_sha256": "3beb4942abe2acb3507754ef8b079f6e3ccc2cee8a986c53c9f00a7a3286ae35",
         "text_without_toc_numbers_sha256": "3beb4942abe2acb3507754ef8b079f6e3ccc2cee8a986c53c9f00a7a3286ae35",
         "types": {
-          "div": 1,
           "text": 3,
           "h": 1,
           "img": 1
@@ -999,10 +922,11 @@
         ]
       },
       {
+        "page_structure_sha256": "9773a7e85c745833d25e4773078fb3f0652ed0996769761df5efa201eacf0559",
+        "structure_sha256": "a34d8014ac347b3ef77cd09cc206f53b3062d7fd5f3ffd970db602365a41a592",
         "text_sha256": "c030a8b8a5921966386d09c97c7543f3c532797bc6e5b3cf20ef3e44a0609d0f",
         "text_without_toc_numbers_sha256": "c030a8b8a5921966386d09c97c7543f3c532797bc6e5b3cf20ef3e44a0609d0f",
         "types": {
-          "div": 1,
           "text": 6,
           "h": 2
         },
@@ -1042,10 +966,11 @@
         ]
       },
       {
+        "page_structure_sha256": "d912658e7dd64584bed385632bedaa8a2fd95d2400b8742693bc8b1536d277f8",
+        "structure_sha256": "a91d153cd91d9d08fad11e622f6b06fec8dce9e83df0b9b03a8d92cb95180261",
         "text_sha256": "2ba729bb241e6fb16ec790e7a3f1a00243d69f5531eba4aa3416c2a2f5668567",
         "text_without_toc_numbers_sha256": "2ba729bb241e6fb16ec790e7a3f1a00243d69f5531eba4aa3416c2a2f5668567",
         "types": {
-          "div": 1,
           "tableContainer": 1,
           "tableRow": 8,
           "tableCol": 40,
@@ -1063,10 +988,11 @@
         ]
       },
       {
+        "page_structure_sha256": "9b3475448422b0c019e8eeb65959831ea1179f7186e8cb1f7a372706321e2c80",
+        "structure_sha256": "8a1dae718c697938f58541dccde826d9a2195d339dc93d6967e679cdad85c3b5",
         "text_sha256": "44f40747b9b20920ec42ee9936c2bd8b612e772e3ef55c155c53a21af2c2a495",
         "text_without_toc_numbers_sha256": "44f40747b9b20920ec42ee9936c2bd8b612e772e3ef55c155c53a21af2c2a495",
         "types": {
-          "div": 1,
           "h": 4,
           "text": 4
         },
@@ -1106,10 +1032,11 @@
         ]
       },
       {
+        "page_structure_sha256": "f0d3af87942825d60bdc320aaa5e5929fd8591a0a97de3e891dce090ceb39656",
+        "structure_sha256": "4b6ab2a648de412048b0e279531451eb8b6f98d9ec7e5d1fe9688d933b659151",
         "text_sha256": "6da4f191e5fdaf53f6994c85fbc5d2d0f5d6297665cfad06bb59b633cc490095",
         "text_without_toc_numbers_sha256": "6da4f191e5fdaf53f6994c85fbc5d2d0f5d6297665cfad06bb59b633cc490095",
         "types": {
-          "div": 1,
           "img": 1,
           "text": 2
         },
@@ -1129,10 +1056,11 @@
         ]
       },
       {
+        "page_structure_sha256": "2c05c5af5b80acfcd2e50426d47628844e2f5d138c9ddc143eb554af7467a65d",
+        "structure_sha256": "373c2c541d8683710e1d3b4d9ebcfa96d7feea0fd1651179072422117531028c",
         "text_sha256": "61ef831c5bd837aa4c420b75489e868162b113a676fae102a202d9a2d772bf0c",
         "text_without_toc_numbers_sha256": "61ef831c5bd837aa4c420b75489e868162b113a676fae102a202d9a2d772bf0c",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 4
         },
@@ -1160,10 +1088,11 @@
         ]
       },
       {
+        "page_structure_sha256": "537d93c5249e18f352a99691a709dad9d0ad9d771d6da159f9440124e1be43d9",
+        "structure_sha256": "fc7df4d2f1b6cf006847a49dafbf46d47bc8269ef5211ec31e549c8bb4a0edb2",
         "text_sha256": "4f3afc1f6a9c5a15554b6ec0daad4a556bbf89d6e8c42f34889324edcbd410fc",
         "text_without_toc_numbers_sha256": "4f3afc1f6a9c5a15554b6ec0daad4a556bbf89d6e8c42f34889324edcbd410fc",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 11
         },
@@ -1219,10 +1148,11 @@
         ]
       },
       {
+        "page_structure_sha256": "9c624fa74742e22c769441fa84cf64e9f13bcbb4e681f5c42963b5640099600e",
+        "structure_sha256": "a695c79b68dd10d8ab071153f0f36f9b971291d82c28290f941f7e6744da7a43",
         "text_sha256": "ace8e4ab4ccd5e5d5b4633fbeb4820517c57efd18598abfc3aeff4f737df2ff5",
         "text_without_toc_numbers_sha256": "ace8e4ab4ccd5e5d5b4633fbeb4820517c57efd18598abfc3aeff4f737df2ff5",
         "types": {
-          "div": 1,
           "h": 1,
           "text": 6
         },
@@ -1264,8 +1194,8 @@
         "alt": "Рисунок 1 - Обобщённая схема структуры полупроводниковой индустрии",
         "widths": {
           "lg": 82.42424242,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 82.42424242,
+          "mb": 82.42424242
         }
       },
       {
@@ -1273,8 +1203,8 @@
         "alt": "Рисунок 2 - Обобщённая схема компаний полупроводниковой индустрии",
         "widths": {
           "lg": 68.03030303,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 68.03030303,
+          "mb": 68.03030303
         }
       },
       {
@@ -1282,8 +1212,8 @@
         "alt": "Рисунок 3 - Топология СФ-блока",
         "widths": {
           "lg": 62.87878788,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 62.87878788,
+          "mb": 62.87878788
         }
       },
       {
@@ -1291,8 +1221,8 @@
         "alt": "Рисунок 4 - Компании - разработчики СФ-блоков",
         "widths": {
           "lg": 74.54545455,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 74.54545455,
+          "mb": 74.54545455
         }
       },
       {
@@ -1300,8 +1230,8 @@
         "alt": "Рисунок 5 - Компании - разработчики САПР",
         "widths": {
           "lg": 68.03030303,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 68.03030303,
+          "mb": 68.03030303
         }
       },
       {
@@ -1309,8 +1239,8 @@
         "alt": "Рисунок 6 - Топология логического чипа",
         "widths": {
           "lg": 49.6969697,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 49.6969697,
+          "mb": 49.6969697
         }
       },
       {
@@ -1318,8 +1248,8 @@
         "alt": "Рисунок 7 - Производители специализированных материалов",
         "widths": {
           "lg": 69.39393939,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 69.39393939,
+          "mb": 69.39393939
         }
       },
       {
@@ -1327,8 +1257,8 @@
         "alt": "Рисунок 8 - Литограф фирмы ASML",
         "widths": {
           "lg": 60.15151515,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 60.15151515,
+          "mb": 60.15151515
         }
       },
       {
@@ -1336,8 +1266,8 @@
         "alt": "Рисунок 9 - Установка травления фирмы Applied Materials",
         "widths": {
           "lg": 51.06060606,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 51.06060606,
+          "mb": 51.06060606
         }
       },
       {
@@ -1345,8 +1275,8 @@
         "alt": "Рисунок 10 - Производители специализированного оборудования",
         "widths": {
           "lg": 65.45454545,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 65.45454545,
+          "mb": 65.45454545
         }
       },
       {
@@ -1354,8 +1284,8 @@
         "alt": "Рисунок 11 - Производители интегральных устройств (IDM)",
         "widths": {
           "lg": 56.36363636,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 56.36363636,
+          "mb": 56.36363636
         }
       },
       {
@@ -1363,8 +1293,8 @@
         "alt": "Рисунок 12 - Безфабричные компании (fabless)",
         "widths": {
           "lg": 60.15151515,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 60.15151515,
+          "mb": 60.15151515
         }
       },
       {
@@ -1372,8 +1302,8 @@
         "alt": "Рисунок 13 - Фабрики (foundry)",
         "widths": {
           "lg": 61.51515152,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 61.51515152,
+          "mb": 61.51515152
         }
       },
       {
@@ -1381,8 +1311,8 @@
         "alt": "Рисунок 14 - Упрощённая схема производства электронных устройств",
         "widths": {
           "lg": 82.42424242,
-          "tb": 100.0,
-          "mb": 100.0
+          "tb": 82.42424242,
+          "mb": 82.42424242
         }
       }
     ],
@@ -1443,7 +1373,7 @@
       },
       {
         "toc-title": "2.2 Общая схема структуры индустрии",
-        "toc-page": "10",
+        "toc-page": "9",
         "target_page": 9,
         "target_text": "2.2Общаясхемаструктурыиндустрии"
       },
@@ -1479,7 +1409,7 @@
       },
       {
         "toc-title": "3.4 Специальные материалы и химикаты",
-        "toc-page": "17",
+        "toc-page": "16",
         "target_page": 16,
         "target_text": "3.4Специальныематериалыихимикаты"
       },

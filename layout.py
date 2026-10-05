@@ -102,7 +102,7 @@ def normalize_image(node, caption=None):
                   'class': 'image-html flex flex-1 w-100 ' + classes('justify-content', 'center')}
     image.attrs.update({'class': 'adaptive-aspect-ratio', 'style': 'width: 100%; height: auto'})
     inner = make('div', {'class': 'flex flex-col items-center adaptive-width',
-                         'style': f'--width-lg: {percent:.14g}%; --width-tb: 100%; --width-mb: 100%;'}, [image])
+                         'style': f'--width-lg: {percent}%; --width-tb: 100%; --width-mb: 100%;'}, [image])
     if caption is not None:
         image.attrs['alt'] = text(caption)
         normalize_paragraph(caption)
@@ -141,7 +141,7 @@ def normalize_container(container, cover=False, cell=False):
             for n in child.walk():
                 if n.attrs.get('data-element-type') == 'tableCol':
                     normalize_container(n, cell=True)
-                    n.attrs['class'] = classes('ratio', 3) + ' ed-table-col'
+                    # Keep Word column proportions until the editor profile is applied.
             result.append(child)
     container.children = result
 
@@ -264,6 +264,8 @@ def format_document(fragment, stats=None):
             kept.append(node)
         parent.children = kept
     prune(tree)
+    from editor_profile import apply_profile
+    apply_profile(tree)
     # IDs, page fields and TOC destinations are finalized only after page removal.
     for i, node in enumerate((n for n in tree.walk() if 'id' in n.attrs), 1):
         node.attrs['id'] = f'element-{i}'
@@ -275,7 +277,8 @@ def format_document(fragment, stats=None):
             if n.attrs.get('data-field') == 'number':
                 n.children = [str(number)]
     for row, page_node, target in links:
-        row.attrs['href'] = '#' + target.attrs['id']
+        if row.tag == 'a':
+            row.attrs['href'] = '#' + target.attrs['id']
         page_node.children = [str(page_by_node[id(target)])]
     if stats is not None:
         stats.update(pages=len(pages), removed_empty_pages=removed, toc_entries=len(links), unresolved_toc=unresolved)

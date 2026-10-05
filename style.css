@@ -5,6 +5,14 @@
 @media print{body{background:white}.page{margin:0;padding:0;box-shadow:none;width:auto;min-height:0}.lecture-content{overflow:visible}@page{size:A4;margin:12mm}}
 
 /* Lecture layout: matches the editor classes in the reference document. */
+.right-side > [data-element-container] { overflow-wrap: anywhere; }
+[data-element-type="text"], [data-element-type="h"] { line-height: var(--lineHeight-lg,120%); white-space: pre-wrap; letter-spacing: normal; }
+[data-element-type="text"] { margin-top: 0; margin-bottom: 0; }
+.ed-table-container { display: flex; flex-direction: column; }
+.ed-table-row { display: flex; }
+.ed-table-col { flex: 1; }
+.ed-table-container[role="table"] { display: grid; }
+.ed-table-container[role="table"] > .ed-table-row { display: contents; }
 .lecture-content {
   padding: 20px 28px;
   gap: 0;

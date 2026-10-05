@@ -521,6 +521,16 @@ def preview_css():
     }
     for device, query in [('lg', None), ('tb', '(max-width: 820px)'), ('mb', '(max-width: 480px)')]:
         rules = []
+        for size in (13, 14, 16, 18):
+            rules.append(f'.fz-{device}-{size} {{ font-size: {size}px; }}')
+        rules.append(f'.fw-{device}-font-bold {{ font-weight: 700; }}')
+        rules.append(f'.gap-{device}-0 {{ gap: 0; }}')
+        for ratio in range(1, 13):
+            rules.append(f'.ratio-{device}-{ratio} {{ flex: {ratio} 1 0%; }}')
+        for side, prop in (('l', 'left'), ('r', 'right'), ('t', 'top'), ('b', 'bottom')):
+            for value in (3, 4, 7):
+                rules.append(f'.m-{device}-{side}-{value} {{ margin-{prop}: {value * 4}px; }}')
+                rules.append(f'.p-{device}-{side}-{value} {{ padding-{prop}: {value * 4}px; }}')
         for group, values in groups.items():
             prop = 'flex-direction' if group == 'direction' else group
             for val in values:

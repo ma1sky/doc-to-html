@@ -1,0 +1,53 @@
+{
+  "reference": "C:\\Users\\Артём\\Downloads\\Telegram Desktop\\Лекция_1_Экосистема_полупроводниковой_индустрии_3.html",
+  "output": "C:\\Users\\Артём\\Downloads\\doc to html\\output\\Лекция 1 - Экосистема полупроводниковой индустрии.html",
+  "before_element_counts": {
+    "page": 31,
+    "div": 31,
+    "text": 251,
+    "divEmpty": 14,
+    "h": 33,
+    "toc": 1,
+    "tableContainer": 4,
+    "tableRow": 23,
+    "tableCol": 93,
+    "img": 14
+  },
+  "reference_element_counts": {
+    "page": 31,
+    "div": 2,
+    "text": 251,
+    "h": 33,
+    "toc": 1,
+    "tableContainer": 4,
+    "tableRow": 23,
+    "tableCol": 93,
+    "img": 14
+  },
+  "after_element_counts": {
+    "page": 31,
+    "div": 2,
+    "text": 251,
+    "h": 33,
+    "toc": 1,
+    "tableContainer": 4,
+    "tableRow": 23,
+    "tableCol": 93,
+    "img": 14
+  },
+  "matched_pages": 31,
+  "comparison_scope": [
+    "body text per page",
+    "full page nesting and attributes including frame",
+    "heading/paragraph/table formatting",
+    "TOC titles and actual page numbers",
+    "image bytes, captions, responsive widths"
+  ],
+  "ignored_differences": [
+    "generated element IDs",
+    "text part indexes",
+    "class order and HTML whitespace",
+    "invalid comma in reference table CSS corrected"
+  ],
+  "service_import_tested": false
+}

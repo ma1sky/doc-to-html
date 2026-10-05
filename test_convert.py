@@ -64,7 +64,7 @@ class ConversionTests(unittest.TestCase):
         source = self.docx('<w:p><w:r><w:rPr><w:rFonts w:ascii="Times New Roman"/></w:rPr><w:t>Text</w:t></w:r></w:p>')
         fragment, _ = Converter(source).convert()
         self.assertNotIn('font-family:&#', fragment)
-        self.assertIn('fz-lg-18', fragment)
+        self.assertIn('fz-lg-16', fragment)
 
     def test_import_has_no_css_and_preserves_alignment(self):
         source = self.docx(''.join(f'<w:p><w:pPr><w:jc w:val="{align}"/></w:pPr><w:r><w:t>{align}</w:t></w:r></w:p>' for align in ('left', 'center', 'right')))
@@ -106,8 +106,8 @@ class ConversionTests(unittest.TestCase):
         self.assertIn('Before', pages[0].render())
         self.assertNotIn('After', pages[0].render())
         self.assertIn('After', pages[1].render())
-        self.assertIn('continuation', pages[1].render())
-        self.assertIn('font-weight:700', pages[1].render())
+        self.assertNotIn('text-align:', pages[1].render())
+        self.assertIn('fw-lg-font-bold', pages[1].render())
 
     def test_image_is_block_with_caption_and_adaptive_width(self):
         from layout import format_document
@@ -115,11 +115,11 @@ class ConversionTests(unittest.TestCase):
           <p id="element-0" data-element-type="text"><span><span id="element-0" data-element-type="img" style="width:330px"><img src="data:image/png;base64,eA==" alt="image"/></span></span></p>
           <p id="element-0" data-element-type="text"><span>Рисунок 1 - Подпись</span></p></div></div>''')
         tree = Parser(fragment).root
-        content = next(n for n in tree.walk() if 'lecture-content' in n.attrs.get('class', ''))
+        content = next(n for n in tree.walk() if n.attrs.get('data-element-type') == 'page')
         image = next(n for n in content.children if hasattr(n, 'attrs') and n.attrs.get('data-element-type') == 'img')
         self.assertEqual(image.tag, 'div')
-        self.assertIn('--width-lg: 50%', image.render())
-        self.assertIn('--width-mb: 100%', image.render())
+        self.assertIn('--width-lg: 50.0%', image.render())
+        self.assertIn('--width-mb: 50.0%', image.render())
         labels = [n for n in tree.walk() if 'image-label' in n.attrs.get('class', '')]
         self.assertEqual(len(labels), 1)
         self.assertIn('Рисунок 1 - Подпись', labels[0].render())
