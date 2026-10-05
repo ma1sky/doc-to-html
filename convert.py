@@ -545,13 +545,9 @@ def main(argv=None):
     mode.add_argument('--standalone', action='store_true', help='Автономный HTML со стилями для просмотра в браузере')
     parser.add_argument('--page-chars', type=int, default=4200, help='Приблизительный объём страницы при отсутствии границ Word')
     parser.add_argument('--overwrite', action='store_true', help='Перезаписать существующие HTML')
-    parser.add_argument('--pdf-parts', type=Path, help='Дополнительно сохранить части HTML для PDF-экспорта в указанную папку')
-    parser.add_argument('--part-pages', type=int, default=5, help='Страниц в части для PDF: 1–10, по умолчанию 5')
     args = parser.parse_args(argv)
     if args.page_chars < 500:
         parser.error('--page-chars должен быть не меньше 500')
-    if not 1 <= args.part_pages <= 10:
-        parser.error('--part-pages должен быть от 1 до 10')
     if not args.input.exists():
         parser.error(f'Не найден путь: {args.input}')
     templates = None if args.no_frame else Templates(args.template)
@@ -576,11 +572,6 @@ def main(argv=None):
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_text(result, encoding='utf-8')
                 entry.update(info, status='ok')
-            if args.pdf_parts:
-                from split_html import write_parts
-                part_dir = args.pdf_parts / source.relative_to(base).with_suffix('')
-                manifest = write_parts(dest.read_text(encoding='utf-8'), part_dir, args.part_pages, str(dest))
-                entry.update(pdf_parts_directory=str(part_dir), pdf_parts_count=len(manifest['parts']))
         except Exception as exc:
             entry.update(status='error', error=str(exc))
         report.append(entry)
