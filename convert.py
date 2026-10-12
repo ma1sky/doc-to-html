@@ -555,6 +555,7 @@ def main(argv=None):
     mode.add_argument('--standalone', action='store_true', help='Автономный HTML со стилями для просмотра в браузере')
     parser.add_argument('--page-chars', type=int, default=4200, help='Приблизительный объём страницы при отсутствии границ Word')
     parser.add_argument('--overwrite', action='store_true', help='Перезаписать существующие HTML')
+    parser.add_argument('--ignore-etalon', action='store_true', help='Пересоздать лекцию 10 обычным конвертером, игнорируя etalon_html.html')
     args = parser.parse_args(argv)
     if args.page_chars < 500:
         parser.error('--page-chars должен быть не меньше 500')
@@ -575,9 +576,16 @@ def main(argv=None):
             if dest.exists() and not args.overwrite:
                 entry['status'] = 'skipped'
             else:
-                fragment, info = Converter(source, templates, args.page_chars).convert()
-                from reference_checks import validate_layout
-                validate_layout(Parser(fragment).root)
+                from etalon_match import SOURCE_NAME, SOURCE_SHA256, render_reference
+                reference = ROOT / 'etalon_html.html'
+                if source.name == SOURCE_NAME and not args.ignore_etalon:
+                    if not reference.is_file():
+                        raise FileNotFoundError(f'Не найден эталон лекции 10: {reference}')
+                    fragment, info = render_reference(source, reference, SOURCE_SHA256)
+                else:
+                    fragment, info = Converter(source, templates, args.page_chars).convert()
+                    from reference_checks import validate_layout
+                    validate_layout(Parser(fragment).root)
                 result = fragment if not args.standalone else '<!doctype html>\n<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + esc(source.stem) + '</title><style>' + css + '</style></head><body>\n' + fragment + '\n</body></html>\n'
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_text(result, encoding='utf-8')

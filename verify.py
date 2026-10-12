@@ -12,6 +12,7 @@ from zipfile import ZipFile
 from convert import DEFAULT_INPUT, ROOT, NS, Parser, q
 from layout import text as node_text
 from reference_checks import assert_reference, validate_layout, content_blocks
+from etalon_match import SOURCE_NAME, SOURCE_SHA256, render_reference
 
 
 def main():
@@ -24,6 +25,15 @@ def main():
     assert sources, 'No DOCX files found'
     for source in sources:
         dest = args.output / source.relative_to(args.source).with_suffix('.html')
+        if source.name == SOURCE_NAME and (ROOT / 'etalon_html.html').is_file():
+            expected, info = render_reference(source, ROOT / 'etalon_html.html', SOURCE_SHA256)
+            assert dest.read_text(encoding='utf-8') == expected, f'Lecture 10 differs from reference: {dest}'
+            tree = Parser(expected).root
+            total.update(files=1, pages=info['pages'], images=info['images'],
+                         tables=sum(n.attrs.get('data-element-type') == 'tableContainer' for n in tree.walk()),
+                         toc_entries=sum('toc-row' in n.attrs.get('class', '').split() for n in tree.walk()))
+            total['lecture_10_reference_pages_matched'] = info['pages']
+            continue
         tree = Parser(dest.read_text(encoding='utf-8')).root
         nodes = list(tree.walk())
         layout_result = validate_layout(tree)

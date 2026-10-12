@@ -166,5 +166,40 @@ class ConversionTests(unittest.TestCase):
         self.assertEqual(validate_layout(Parser(fragment).root)['toc_entries'], 2)
 
 
+    def test_etalon_restores_docx_image_and_checks_revision(self):
+        import base64
+        import hashlib
+        from etalon_match import render_reference
+
+        source = self.root / 'lecture.docx'
+        image = b'\x89PNG\r\n\x1a\nimage-data'
+        with ZipFile(source, 'w') as archive:
+            archive.writestr('word/document.xml',
+                             '<w:document xmlns:w="' + NS['w'] + '" xmlns:a="' + NS['a'] +
+                             '" xmlns:r="' + NS['r'] + '"><w:body><a:blip r:embed="rId1"/>'
+                             '</w:body></w:document>')
+            archive.writestr('word/_rels/document.xml.rels',
+                             '<Relationships><Relationship Id="rId1" Target="media/img.png"/>'
+                             '</Relationships>')
+            archive.writestr('word/media/img.png', image)
+        reference = self.root / 'etalon.html'
+        reference.write_text(
+            '<div id="element-1" data-element-type="page" data-element-template="base">'
+            '<div id="element-2" data-element-type="toc"></div>'
+            '<div id="element-3" data-element-type="img"><img src="..." alt="figure"/></div>'
+            '</div>', encoding='utf-8')
+        fingerprint = hashlib.sha256(source.read_bytes()).hexdigest()
+        result, info = render_reference(source, reference, fingerprint)
+        self.assertEqual(info['pages'], 1)
+        self.assertEqual(info['images'], 1)
+        self.assertEqual(base64.b64decode(result.split('base64,')[1].split('"')[0]), image)
+        self.assertEqual(result.replace(result.split('src="')[1].split('"')[0], '...'),
+                         reference.read_text(encoding='utf-8'))
+        with ZipFile(source, 'a') as archive:
+            archive.writestr('changed.txt', 'changed')
+        with self.assertRaisesRegex(ValueError, 'DOCX изменился'):
+            render_reference(source, reference, fingerprint)
+
+
 if __name__ == '__main__':
     unittest.main()
